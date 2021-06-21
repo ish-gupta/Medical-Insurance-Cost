@@ -43,10 +43,10 @@ We use the Ordinary Least Squares (OLS) method, which gives an R-squared value o
 
 ## Assumption Testing
 ### White Test
-The test chefcks for heteroskedasticity (unequal variance across range of values). Since we get a p-value of 0.116 (< 0.5), we can conclude that our model is homoskedastic.
+The test checks for heteroskedasticity (unequal variance across range of values). Since we get a p-value of 0.116 (< 0.5), we can conclude that our model is homoskedastic.
 
 ### Breusch-Pagan Test
-The test is also tests for heteroskedasticity but it is more speicific as it only checks for its linear form. The test confirms that there is no heteroskedasticity in our model.
+The test is also for heteroskedasticity but it is more speicific as it only checks for its linear form. The test confirms that there is no heteroskedasticity in our model.
 
 ### Ramsey Reset Test
 The test is a general specification test for the model, i.e., whether linear combinations of the fitted values help explain the response variable. The test confirms that our trained model is sufficiently linear.
